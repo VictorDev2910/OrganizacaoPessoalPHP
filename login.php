@@ -14,41 +14,43 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="card">
-        <div class="card-block">
-            <div class="text-center">
-                <h3><i class="fa fa-lock"></i> Login:</h3>
-                <hr class="mt-2 mb-2">
-            </div>
-            <div class="md-form">
-                <i class="fa fa-envelope prefix"></i>
-                <input type="text" id="form2" class="form-control">
-                <label for="form2">Email</label>
-            </div>
-            <!-- Corpo do painel -->
-            <div class="md-form">
-                <i class="fa fa-lock prefix"></i>
-                <input type="password" id="form4" class="form-control">
-                <label for="form4">Senha</label>
-            </div>
-            <div class="text-center">
-                <a class="btn btn-primary btn-rounded">Login</a>
-            </div> 
-        </div>
-    </div>
 
-     <!--Rodapé-->
-     <div class="modal-footer">
-        <div class="options">
-            <p>Não é cadastrado? <a href="#">Cadastre-se</a></p>
-            <p>Esqueceu <a href="#">sua senha?</a></p>
+        <div class="card">
+            <div class="card-block">
+                <div class="text-center">
+                    <h3><i class="fa fa-lock"></i> Login:</h3>
+                    <hr class="mt-2 mb-2">
+                </div>
+                <!-- Corpo do painel -->
+                <div class="md-form">
+                    <i class="fa fa-envelope prefix"></i>
+                    <input type="text" id="form2" class="form-control">
+                    <label for="form2">Email</label>
+                </div>
+                <div class="md-form">
+                    <i class="fa fa-lock prefix"></i>
+                    <input type="password" id="form4" class="form-control">
+                    <label for="form4">Senha</label>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-primary btn-rounded">Login</a>
+                </div> 
+            </div>
         </div>
-    </div>
 
-</div>
+        <!--Rodapé-->
+        <div class="modal-footer">
+            <div class="options">""
+                <p>Não é cadastrado? <a href="#">Cadastre-se</a></p>
+                <p>Esqueceu <a href="#">sua senha?</a></p>
+            </div>
+        </div>
+
+
     
   
     <!-- SCRIPTS -->
